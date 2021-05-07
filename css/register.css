@@ -1,0 +1,73 @@
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #eee;
+}
+
+.forms{
+	box-shadow: 2px 2px 2px 2px grey;
+	min-height: 20em;
+}
+
+.headi
+{
+	
+	color:#301D7C;
+	font-size:45px;
+	text-align: center;
+}
+
+input{
+	 border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+.forming{
+	width: 100%;
+	border:none;
+	border-bottom: 1px solid black;
+}
+
+.forming:hover{
+	border-bottom: 1px solid red;
+}
+.form-control:hover{
+	box-shadow: none;
+}
+
+.card{
+	opacity: 0.9;
+}
+
+.cards{
+	 margin-top:11%;
+	margin-left:16%;
+	 width: 50rem;
+}
+.bt{
+	width: 270px;
+}
+
+@media screen and (max-width:620px){
+
+	.cards{
+	  width:90%;
+	  margin-left: 16px;
+		margin-right:-12px;
+	  margin-top: 35%;
+	  align-content: center;
+	}
+	.bt{
+		width:100%;
+	}
+	.headi{
+		font-size: 25px;
+	}
+
+	.forming{
+	width: 200px;
+	border:none;
+	border-bottom: 1px solid black;
+    }
+}
