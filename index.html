@@ -12,10 +12,10 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>    
 
     <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     
-
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -38,11 +38,10 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="css/headers.css" rel="stylesheet">
     <link href="css/footers.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/farm.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     
@@ -195,7 +194,7 @@
       
         <div class="col-lg-4 col-sm-12">
           <div class="sub bar fadein">
-            <h3 style="margin-top:60px;" class="head4"> <b> CONVENIENCE</b> </h3>
+            <h3 style="margin-top:60px;" class="head4"> <b> Market Linkage</b> </h3>
             <p class="level eighty" style="margin:30px;">We provide a convenient way of getting agriculture inputs to the farmers at their doorstep.</p>
           </div>
         </div>
@@ -214,7 +213,7 @@
         </div>
         <div class="col-lg-4 col-sm-12">
           <div class="sub bar fadein">
-            <h3  class="head4" style="margin-top:60px;">  <b> QUALITY</b></h3>
+            <h3  class="head4" style="margin-top:60px;">  <b> Demand Analysis</b></h3>
             <p class="level eighty" style="margin:30px;">We provide authentic and quality products from reliable suppliers to the farmers.</p>
          
           </div>
@@ -225,7 +224,7 @@
       
         <div class="col-lg-4 col-sm-12">
           <div class="sub fadein">
-            <h3 class="head4" style="margin-top:60px;"> <b> AVAILABILITY</b> </h3>
+            <h3 class="head4" style="margin-top:60px;"> <b> Access of Loan</b> </h3>
             <p  class="level eighty" style="margin:30px;">Farmsbook ensures timely availability of a range of products and also introduces new product innovations to the farmers</p>
          
           </div>
@@ -444,27 +443,28 @@
           <div class="col-sm-12 col-lg-3 nn">
 
             
-              <h1 class="tiny"><span class="numcount">250</span>+</h1>
+              <h1 class="tiny"><span class="counter">250</span>+</h1>
             <h2 class="tini">FPO</h2>
             
           </div>
     
         <div class="col-sm-12 col-lg-3 nn">
-            <h1 class="tiny" ><span class="numcount">100000</span>+</h1>
+          
+            <h1 class="tiny" ><span class="counter">100000</span>+</h1>
           <h2 class="tini">Farmers</h2>
           
         </div>
     
         <div class="col-sm-12 col-lg-3 nn">
           
-          <h1 class="tiny" ><span class="numcount">5000</span></h1>
+          <h1 class="tiny" ><span class="counter">5000</span></h1>
           <h2 class="tini">Organic Farmer</h2>
           
         </div>
 
         <div class="col-sm-12 col-lg-3 nn">
 
-          <h1 class="tiny" ><span class="numcount">20</span></h1>
+          <h1 class="tiny" ><span class="counter">20</span>+</h1>
             <h2 class="tini">Crops</h2>
           
           
@@ -474,6 +474,8 @@
 
       
       
+
+
       <div class="blocks">
         <div class="row">
          
@@ -580,119 +582,164 @@
 
 
 
-
-
-
-          
-          <div>
-            <div class="testhead">
-
-              
-              <h1>Testimonials</h1>
-              <p>Don't take our word for it, here's what others have to say</p>
-            </div>
-            <div class="row rowi testdata"><!--row1-->
-              <div class="col-lg-4 col-sm-12 testitem">
-                
-                  <div class="row">
-                    <div class="col">
-                      <img height="30px" width="30px" src="images/qu.JPG" alt="">
-                    </div>
-                    <div class="col" style="text-align: right; color: green;">
-                      <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h6>
-                    </div>
+<!--main testimonial-->
+<section>
+  <div class="container">
+      <div class="section-title">
+          <h2>Testimonials</h2>
+          <span class="section-separator"></span>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+  </div>
+  <div class="testimonials-carousel-wrap">
+      <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+      <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+      <div class="testimonials-carousel">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="testi-item">
+                          <div class="testi-avatar"><img src="images/21.jpg"></div>
+                          <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                          <div class="testimonials-text">
+                              <div class="listing-rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                              <a href="#" class="text-link"></a>
+                              <div class="testimonials-avatar">
+                                  <h3>John Doe</h3>
+                                  <h4>Owner</h4>
+                              </div>
+                          </div>
+                          <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                      </div>
                   </div>
-                  
-                <div class="sub fadein">
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                </div>
-              
-              <div class="row">
-                <h6><img height="50px" width="50px" src="images/mnava.JPG" alt="">&nbsp &nbsp Bhupat Jangid</h6>
-                
-              </div>
-              </div>
-              <div class="col-lg-4 col-sm-12 testitem">
-                
-                <div class="row">
-                  <div class="col">
-                    <img height="30px" width="30px" src="images/qu.JPG" alt="">
+
+                  <!--second--->
+                  <div class="swiper-slide">
+                      <div class="testi-item">
+                          <div class="testi-avatar"><img src="images/3.jpg"></div>
+                          <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                          <div class="testimonials-text">
+                              <div class="listing-rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                              <a href="#" class="text-link"></a>
+                              <div class="testimonials-avatar">
+                                  <h3>Doe Boe</h3>
+                                  <h4>Director</h4>
+                              </div>
+                          </div>
+                          <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                      </div>
                   </div>
-                  <div class="col" style="text-align: right; color: green;">
-                    <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h6>
+                  <!--third-->
+
+                  <div class="swiper-slide">
+                      <div class="testi-item">
+                          <div class="testi-avatar"><img src="images/4.jpg"></div>
+                          <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                          <div class="testimonials-text">
+                              <div class="listing-rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                              <a href="#" class="text-link"></a>
+                              <div class="testimonials-avatar">
+                                  <h3>Boe Doe</h3>
+                                  <h4>Developer</h4>
+                              </div>
+                          </div>
+                          <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                      </div>
                   </div>
-                </div>
-                
-              <div class="sub fadein">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+                  <!--fourth-->
+                  <div class="swiper-slide">
+                      <div class="testi-item">
+                          <div class="testi-avatar"><img src="images/6.jpg"></div>
+                          <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                          <div class="testimonials-text">
+                              <div class="listing-rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                              </div>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                              <a href="#" class="text-link"></a>
+                              <div class="testimonials-avatar">
+                                  <h3>Doe John</h3>
+                                  <h4>Designer</h4>
+                              </div>
+                          </div>
+                          <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                      </div>
+                  </div>
+                  <!--testi end-->
+
               </div>
-            
-            <div class="row">
-              <h6><img height="50px" width="50px" src="images/mnava.JPG" alt="">&nbsp &nbsp Bhupat Jangid</h6>
-              
-            </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 testitem">
-                
-              <div class="row">
-                <div class="col">
-                  <img height="30px" width="30px" src="images/qu.JPG" alt="">
-                </div>
-                <div class="col" style="text-align: right; color: green;">
-                  <h6><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h6>
-                </div>
-              </div>
-              
-            <div class="sub fadein">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-            </div>
-          
-          <div class="row">
-            <h6><img height="50px" width="50px" src="images/mnava.JPG" alt="">&nbsp &nbsp Bhupat Jangid</h6>
-            
           </div>
-          </div>
-            
-            
-            </div>
-          </div>
+      </div>
+
+      <div class="tc-pagination"></div>
+  </div>
+  </div>
+</section>
 <!--feedback section-->
-        <div class="blocks1">
-          <div class=" col-md-10 col-lg-12">
-       
-            <center><h1 class="texts changesize" >Feedback</h1></center>
-            <center><h2 class="texts changesize" >Send Us Your Valuable Suggestions </h2></center>
-          </div>
-           
-            <form>
-            
-          
-            <div class=" form-group fd">
-            <h4 ><input type="text"  class="form-control" name="t1" autocomplete="off"  autocorect = "off" autocapitalize="words" placeholder="* Enter Your Name"></h4>
-            </div>
-            <div class=" form-group fd">
-            <h4><input type="email" class="form-control" name="t2" autocomplete="off" autocorect = "off" autocapitalize="words"  placeholder="* Email Id"></h4>
-            </div>
-            <div class=" form-group fd">
-            <h4><input type="text" class="form-control" name="t3" autocomplete="off" autocorect = "off" autocapitalize="words"  placeholder="* Phone No."></h4>
-            </div>
-            <div class=" form-group fd" >
-          <h4><textarea rows="5" class="form-control" cols="50" autocomplete="off" autocorect = "off" autocapitalize="words" placeholder="* Enter your Feedback Here.."></textarea> </h4>
-            </div>
-            <br>
-            <div class="text-center">
-            <button class="btn btn-info btns">Submit</button>
-            </div>
-            <br><br>
-            
-            </div>
-            </form>
-           
 
-        </div>
+<div style="background-color: #fcfcfd;">
+  <p>&nbsp;</p>
+</div>
 
+<div class="blocks1" style="margin-top: -18px;">
+  <div class=" col-md-10 col-lg-12">
 
+    <center><h1 class="texts changesize" >Feedback</h1></center>
+    <center><h2 class="texts changesize" >Send Us Your Valuable Suggestions </h2></center>
+  </div>
+   
+    <form>
+    
+  
+    <div class=" form-group fd">
+    <h4 ><input type="text"  class="form-control" name="t1" autocomplete="off"  autocorect = "off" autocapitalize="words" placeholder="* Enter Your Name"></h4>
+    </div>
+    <div class=" form-group fd">
+    <h4><input type="email" class="form-control" name="t2" autocomplete="off" autocorect = "off" autocapitalize="words"  placeholder="* Email Id"></h4>
+    </div>
+    <div class=" form-group fd">
+    <h4><input type="text" class="form-control" name="t3" autocomplete="off" autocorect = "off" autocapitalize="words"  placeholder="* Phone No."></h4>
+    </div>
+    <div class=" form-group fd" >
+  <h4><textarea rows="5" class="form-control" cols="50" autocomplete="off" autocorect = "off" autocapitalize="words" placeholder="* Enter your Feedback Here.."></textarea> </h4>
+    </div>
+    <br>
+    <div class="text-center">
+    <button class="btn btn-info btns">Submit</button>
+    </div>
+    <br><br>
+    
+    </div>
+    </form>
+   
 
+</div>
 
 <!--footer section-->
     <div class="footer-dark">
@@ -740,6 +787,8 @@
   <script src="js/test.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   
-
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
 </html>
