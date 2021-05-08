@@ -177,6 +177,10 @@ input, textarea{
 	width:300px;
 	background-color: #03C;
 }
+.cnn{
+	text-align: center;
+	
+}
 
 .fadein{
  opacity:0;
@@ -300,6 +304,10 @@ burger div{
 .flip-box{
 	alignment-adjust:central;
 	margin-right:150px;
+}
+.flip-boxfarmer{
+	alignment-adjust:central;
+	
 }
 
 .dest{
@@ -863,6 +871,15 @@ a:link{
 
 .flip-box {
   margin:60px;
+  box-shadow:5px 9px 5px #000000;
+  background-color: transparent;
+  width: 300px;
+  height: auto;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+.flip-boxfarmer{
+	margin:60px auto;
   box-shadow:5px 9px 5px #000000;
   background-color: transparent;
   width: 300px;

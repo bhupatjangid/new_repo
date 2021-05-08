@@ -38,7 +38,7 @@ section{
 	width: 50px;
 	border-radius: 3px;
 	z-index: 2;
-	background-color: #92e7d2;
+	background-color: #0d4408;
 	margin-left: -25px;
 }
 .swiper-container {
@@ -161,7 +161,7 @@ section{
 }
 .tc-pagination .swiper-pagination-bullet:hover{
 	opacity: 5;
-	background: #007aff;
+	background: #0d4408;
 	margin:0 5px;
 	width: 15px;
 	height: 15px;
@@ -169,7 +169,7 @@ section{
 }
 .tc-pagination2.swiper-pagination-bullet :hover{
 	opacity: 5;
-	background: #007aff;
+	background: #0d4408;
 	margin:0 5px;
 	width: 15px;
 	height: 15px;
