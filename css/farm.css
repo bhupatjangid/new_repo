@@ -149,7 +149,17 @@ input, textarea{
 .nn{
 	padding: 20px;
 }
+.fd{
+	margin:20px 150px;
 
+}
+@media screen and (max-width:620px){
+	.fd{
+		margin:20px 50px;
+	
+	}
+	
+}
 .sub{
 	text-align: center;
     padding:5px;	
