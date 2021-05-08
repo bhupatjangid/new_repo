@@ -1,7 +1,6 @@
 //   all ------------------
 function initParadoxWay() {
-    "use strict";
-   
+    
     if ($(".testimonials-carousel").length > 0) {
         var j2 = new Swiper(".testimonials-carousel .swiper-container", {
             preloadImages: false,
@@ -14,17 +13,16 @@ function initParadoxWay() {
             pagination: {
                 el: '.tc-pagination',
                 clickable: true,
-                dynamicBullets: true,
+                
             },
             navigation: {
                 nextEl: '.listing-carousel-button-next',
                 prevEl: '.listing-carousel-button-prev',
             },
             breakpoints: {
-                1024: {
+                900: {
                     slidesPerView: 3,
                 },
-                
             }
         });
     }
@@ -33,13 +31,10 @@ function initParadoxWay() {
     
     var sArray=[];
     setInterval(function () {
-        var size =4;
-        $('.bubbles').append('<div class="individual-bubble" style="left: ' + 1 + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
+        var size =100;
+        $('.bubbles').append('<div class="individual-bubble" style="width: ' + size + 'px; height:' + size + 'px;"></div>');
         $('.individual-bubble').animate({
-            'bottom': '100%',
-            'opacity': '-=0.7'
-        }, 4000, function () {
-            $(this).remove()
+            'bottom': '100%'
         });
     }, 350);
     
