@@ -31,13 +31,28 @@ section{
 
 
 .testimonials-text {
-	padding: 40px 25px 40px;
+	padding: 25px 25px 25px;
 	box-shadow:5px 9px 5px #000000;
 	overflow:hidden;
 	background: #f8f9fa;
 	border:2px solid black;
+	min-height: 320px;
 	border-radius: 10px;
 	transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width:500px){
+	.testimonials-text {
+		padding: 25px 25px 25px;
+		box-shadow:5px 9px 5px #000000;
+		overflow:hidden;
+		background: #f8f9fa;
+		border:2px solid black;
+		min-height: 370px;
+		border-radius: 10px;
+		transition: all .3s ease-in-out;
+	}
+	
 }
 .testimonials-text-after{
 	font-style: normal;
