@@ -31,12 +31,13 @@ section{
 
 
 .testimonials-text {
+	
 	padding: 25px 25px 25px;
 	box-shadow:5px 9px 5px #000000;
 	overflow:hidden;
 	background: #f8f9fa;
 	border:2px solid black;
-	min-height: 320px;
+	min-height: 350px;
 	border-radius: 10px;
 	transition: all .3s ease-in-out;
 }
@@ -86,19 +87,24 @@ section{
 
 .testimonials-avatar h3{
 	font-weight: 600;
-	font-size: 24px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-	
-}
-.testimonials-avatar h4{
-	font-weight: 600;
 	font-size: 18px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 	
 }
-
+.testimonials-avatar h4{
+	font-weight: 400;
+	font-size: 17px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	
+}
+.tet p{
+	font-weight: 600;
+	font-size: 18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
 
 .testimonials-carousel .swiper-slide{
 	padding: 30px 30px;
